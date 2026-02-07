@@ -1,0 +1,27 @@
+# Build output
+target/
+build/
+
+# IDE junk
+.idea/
+.vscode/
+*.iml
+
+# Git
+.git
+.gitignore
+
+# OS files
+.DS_Store
+
+# Logs
+*.log
+
+# Env / secrets
+.env
+*.pem
+*.key
+
+# Tests & docs (not needed in image)
+src/test/
+README.md
